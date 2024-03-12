@@ -1,0 +1,407 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: #0a192f;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #F97316;
+  border-radius: 10px;
+}
+::-webkit-slider-thumb:hover{
+  background: #013f3c7f;
+} 
+
+/* LOADER CSS */
+.k{
+  animation: k 1s infinite alternate;
+}
+.g{
+  animation: g 1s infinite alternate;
+}
+
+@keyframes k {
+  0%{
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  100%{
+    opacity: 0.6;
+    transform: scale(1);
+  }
+}
+
+
+@keyframes g{
+  0%{
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}
+
+
+@media (max-width:968px) {
+  .intro-div{
+    gap:1.6rem;
+  }
+  .intro-hi{
+    font-size: 1.3rem;
+  }
+  .intro-name{
+    font-size: 4rem;
+  }
+  .intro-text{
+     width: 100%;
+     font-size: 3.2rem;
+  }   
+  .intro-p{
+    width: 100%;
+    text-wrap: wrap;
+  }  
+  .about-p{
+    font-size: 13px;
+    margin-top: 0px;
+  }
+  .about-img{
+    display: flex;
+    width: 430px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+ }
+/*
+ @media (max-width: 800px) {
+  .about-p{
+    font-size: 11.5px;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .about-img{
+    width: 400px !important;
+    height: 400px !important;
+  }
+ }
+ */
+
+ @media (max-width:775px) {
+  .intro-div{
+    gap:1.5rem;
+  }
+  .intro-hi{
+    font-size: 1.2rem;
+  }
+  .intro-name{
+    font-size: 3.8rem;
+  }
+  .intro-text{
+     width: 100%;
+     font-size: 3.2rem;
+  }   
+  .intro-p{
+    width: 100%;
+    text-wrap: wrap;
+    text-align: justify;
+    font-size: 1.01rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro-btn{
+    font-size: 1.2rem;
+    padding: 0.7rem 2.2rem;
+  }
+ }
+
+ @media (max-width: 650px) {
+  .about-container{
+    flex-direction: column;
+    gap: 0px !important;
+  }
+ }
+
+
+ @media (max-width:633px) {
+  .intro-div{
+    gap:1.2rem;
+  }
+  .intro-hi{
+    font-size: 1.3rem;
+  }
+  .intro-name{
+    font-size: 3.6rem;
+  }
+  .intro-text{
+     width: 100%;
+     font-size: 2.6rem;
+  }   
+  .intro-p{
+    width: 100%;
+    text-wrap: wrap;
+    text-align: justify;
+    font-size: 0.9rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro-btn{
+    font-size: 1rem;
+    padding: 0.5rem 1.8rem;
+  }
+ }
+
+ 
+ @media (max-width:600px) {
+  .intro-div{
+    gap:1.2rem;
+  }
+  .intro-hi{
+    font-size: 1.2rem;
+  }
+  .intro-name{
+    font-size: 3.1rem;
+  }
+  .intro-text{
+     width: 100%;
+     font-size: 2.5rem;
+  }   
+  .intro-p{
+    width: 100%;
+    text-wrap: wrap;
+    text-align: justify;
+    font-size: 0.86rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro-btn{
+    font-size: 0.9rem;
+    padding: 0.5rem 1.8rem;
+  }
+ }
+/*  
+ @media (max-width:524px) {
+  .intro-div{
+    gap:1.1rem;
+  }
+  .intro-hi{
+    font-size: 1rem;
+  }
+  .intro-name{
+    font-size: 3rem;
+  }
+  .intro-text{
+     width: 100%;
+     font-size: 2.3rem;
+  }   
+  .intro-p{
+    width: 100%;
+    text-wrap: wrap;
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro-btn{
+    font-size: 0.7rem;
+    padding: 0.3rem 1.3rem;
+  }
+ } */
+
+
+ 
+ @media (max-width:524px) {
+  .intro-div{
+    gap:1.5rem;
+  }
+  .intro-hi{
+    font-size: 1.1rem;
+  }
+  .intro-name{
+    font-size: 2.5rem;
+  }
+  .intro-text{
+     width: 100%;
+     font-size: 2.3rem;
+  }   
+  .intro-p{
+    width: 100%;
+    text-wrap: wrap;
+    font-size: 0.76rem;
+    padding: 0;
+   
+    text-align: justify;
+    margin: 0;
+  }
+
+  .intro-btn{
+    font-size: 0.8rem;
+    padding: 0.3rem 1.3rem;
+  }
+ }
+ 
+ @media (max-width:416px) {
+  .intro-div{
+    gap:1.2rem;
+  }
+  .intro-hi{
+    font-size: 1.1rem;
+  }
+  .intro-name{
+    font-size: 2.4rem;
+  }
+  .intro-text{
+     width: 100%;
+     font-size: 1.7rem;
+  }   
+  .intro-p{
+    width: 100%;
+    text-wrap: wrap;
+    font-size: 0.9rem;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro-btn{
+    font-size: 0.6rem;
+    padding: 0.27rem 1.2rem;
+  }
+ }
+
+ 
+
+ 
+@media (max-width: 1000px){
+  .about-p{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .about-container{
+  height: 65vh !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  }
+  .about-container img{
+    width: max-content !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 580px) {
+  .about-container{
+  height: 63vh !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  }
+}
+
+
+@media (max-width: 570px) {
+  .about-container{
+  height: 55vh !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 525px) {
+  .about-container{
+  height: 60vh !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  }
+  .about-container img{
+    width: max-content !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .about-container{
+  height: 50vh !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  }
+  .about-container img{
+    width: max-content !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container{
+  height: 45vh !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  }
+}
+
+
+@media (max-width: 435px) {
+  .about-container{
+  height: 40vh !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  }
+  .about-container img{
+    width: 100vw !important;
+    height: 100% !important;
+    object-fit: contain;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .about-container img{
+    width: 10rem !important;
+  }
+}
+
+@media (max-width: 993px) {
+ .contact-img{
+  width: 450px;
+  margin-top: 20px;
+ }
+ .contact-key{
+  font-size: 1rem;
+ }
+}
+
+
+@media (max-width: 842px) {
+  .contact-img{
+   width: 430px;
+   margin-top: 50px;
+   margin-left: 20px;
+  }
+  .contact-key{
+   font-size: 1rem;
+  }
+ }
