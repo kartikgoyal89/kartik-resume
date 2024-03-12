@@ -1,5 +1,5 @@
 import React from "react";
-import KartikResume from "../../resources/original_resume_kartik.pdf";
+import KartikResume from "../../resources/resume_kartik.pdf";
 
 function Intro() {
   return (

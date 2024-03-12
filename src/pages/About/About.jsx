@@ -22,8 +22,13 @@ const About = () => {
     <div>
       <SectionTitle title="About" className="mb-0" />
       <div className="flex  w-full items-center sm:flex-col">
-        <div className="h-[80vh] about-container md:h-[50vh] w-2/3 sm:w-11/12">
-          <img src={Developer} alt="developer.gif" width="450px" />
+        <div className="h-[90vh] w-11/12 about-container md:h-[7vh] lg:h[50vh] sm:h[30vh]">
+          <img
+            src={Developer}
+            alt="developer.gif"
+            width="450px"
+            className="object-contain"
+          />
         </div>
         <div className="flex flex-col gap-5 w-full ml-10 lg:ml-0">
           <p className="text-white about-p mb-5 mt-8 md:text-sm text-justify sm:w-full">

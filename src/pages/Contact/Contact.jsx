@@ -36,7 +36,7 @@ const Contact = () => {
             alt="contact-img"
             width="500px"
             height="300px"
-            className="contact-img pb-10 ml-20 sm:ml-0"
+            className="contact-img pb-10 ml-20 sm:ml-0 object-contain"
           />
         </div>
       </div>

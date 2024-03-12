@@ -405,3 +405,11 @@
    font-size: 1rem;
   }
  }
+
+ @media (max-width: 391px) {
+  .contact-img{
+    width: 300px !important;
+    height: 300px !important;
+  }
+  
+ }
