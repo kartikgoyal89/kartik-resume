@@ -21,7 +21,7 @@ export const project = [
   },
   {
     _id: "3",
-    title: "Goyal's - Onlne Ecommerce Application",
+    title: "Goyal's - Online Ecommerce Application",
     description:
       "Built a MERN stack e-commerce platform with user authentication, cart, wishlist, and product management. Integrated Stripe for payments and utilized Redux for state management, along with an admin panel for managing products, blogs, and analytics.",
     link: "https://goyals.vercel.app/",
