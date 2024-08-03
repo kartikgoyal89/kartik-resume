@@ -21,12 +21,12 @@ export const project = [
   },
   {
     _id: "3",
-    title: "Nest- Ecommerce Application",
+    title: "Goyal's - Onlne Ecommerce Application",
     description:
-      "A fully functional and attractive responsive application consisting of products list page and product details page. A seperate admin panel used to manage all the products and users.",
-    link: "/",
+      "Built a MERN stack e-commerce platform with user authentication, cart, wishlist, and product management. Integrated Stripe for payments and utilized Redux for state management, along with an admin panel for managing products, blogs, and analytics.",
+    link: "https://goyals.vercel.app/",
     tech: "MERN Stack",
-    period: "2023-Present",
+    period: "2024-2024",
     image: "",
   },
 ];

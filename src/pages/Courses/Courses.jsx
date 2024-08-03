@@ -9,7 +9,7 @@ const Courses = () => {
   return (
     <div>
       <SectionTitle title="Courses & Certifications" />
-      <div className="flex py-10 gap-10 sm:flex-col">
+      <div className="flex py-10 h-full gap-10 sm:flex-col">
         {/* certificates PERIOD */}
         <div className="flex flex-col gap-5 border-l-2 border-[#135e4c82] w-fit sm:flex-row sm:overflow-x-scroll sm:w-full">
           {certificates.map((certificates, idx) => (
@@ -26,7 +26,7 @@ const Courses = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-col gap-3 ml-5">
+        <div className="flex flex-col mt-3 gap-3 ml-5">
           <Link
             to={certificates[selectItem].link}
             target="_blank"

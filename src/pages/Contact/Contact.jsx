@@ -7,8 +7,9 @@ const Contact = () => {
     name: "Kartik Goyal",
     email: "kartikgoyal794@gmail.com",
     mobile: "+91-7669835303",
-    age: "20",
+    age: "21",
     gender: "male",
+    city: "New Delhi",
     country: "INDIA",
   };
   return (
