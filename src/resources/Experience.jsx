@@ -1,23 +1,11 @@
 export const experience = [
   {
     _id: "1",
-    company: "Sheytech",
-    title: "React Developer",
-    period: "2021-2022",
-    description: "",
-  },
-  {
-    _id: "2",
-    company: "Udemy",
-    title: "Web Development Instructor",
-    period: "2020-Present",
-    description: "",
-  },
-  {
-    _id: "3",
-    company: "Self-Employed",
-    title: "Freelancer",
-    period: "2018-2019",
-    description: "",
+    company: "Gamavis Softech LLP",
+    title: "MERN Stack Developer Intern",
+    link: "https://drive.google.com/file/d/1vj0xfh0DtlJ1zqXllit0y9xOnYnytVIj/view?usp=sharing",
+    period: "Feb-Aug",
+    description:
+      "Created a web application allowing users to add and customize various types of form inputs. Enabled users to add any number of inputs, offering extensive customization options. Developed features to support different input types commonly used in forms.",
   },
 ];

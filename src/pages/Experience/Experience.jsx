@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SectionTitle from "../../components/SectionTitle";
 import { experience } from "../../resources/Experience";
+import { Link } from "react-router-dom";
 
 const Experience = () => {
   const [selectItem, setSelectedItem] = useState(0);
@@ -29,17 +30,15 @@ const Experience = () => {
           <h1 className="text-xl font-bold text-secondary">
             {experience[selectItem].title}
           </h1>
-          <h1 className="text-xl text-tertiary">
-            {experience[selectItem].company}
-          </h1>
-          <p className="text-white">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellendus maiores animi harum veniam. Officia impedit odio saepe
-            aliquam illum iusto.
-          </p>
+
+          <Link to={experience[selectItem].link} target="_blank">
+            <h1 className="text-xl text-tertiary underline">
+              {experience[selectItem].company}
+            </h1>
+          </Link>
+          <p className="text-white">{experience[selectItem]?.description}</p>
         </div>
       </div>
-      {/* EXPERIENCE DATA */}
     </div>
   );
 };

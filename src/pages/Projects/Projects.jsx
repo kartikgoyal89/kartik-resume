@@ -32,7 +32,7 @@ const Projects = () => {
             className="cursor-pointer"
             target="_blank"
           >
-            <h1 className="text-xl font-bold text-secondary">
+            <h1 className="text-xl font-bold text-secondary underline">
               {project[selectItem].title}
             </h1>
           </Link>

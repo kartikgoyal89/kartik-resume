@@ -1,5 +1,5 @@
 import React from "react";
-import KartikResume from "../../resources/_resume_kartik_goyal.pdf";
+import KartikResume from "../../resources/kartik_resume.pdf";
 
 function Intro() {
   return (
@@ -16,11 +16,11 @@ function Intro() {
         websites and currently seeking internship opportunites to showcase my
         skills and explore new technologies.
       </p>
-      <button className="border-2 intro-btn border-tertiary  font-semibold outline-none px-10 py-3 rounded mt-2 text-xl mb-0 intro-btn hover:bg-tertiary text-white transition ease-in-out duration-200">
-        <a href={KartikResume} download="kartik_goyal.pdf">
+      <a href={KartikResume} target="_blank">
+        <button className="border-2 intro-btn border-tertiary  font-semibold outline-none px-10 py-3 rounded mt-2 text-xl mb-0 intro-btn hover:bg-tertiary text-white transition ease-in-out duration-200">
           Download CV
-        </a>
-      </button>
+        </button>
+      </a>
     </div>
   );
 }

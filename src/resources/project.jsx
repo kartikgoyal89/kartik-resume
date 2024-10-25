@@ -5,7 +5,7 @@ export const project = [
     tech: "MERN Stack",
     period: "2021-2022",
     image: "",
-    link: "/",
+    link: "https://github.com/kartikgoyal89/Doctor-Appointment-system",
     description:
       "A Doctor Appointment application where a authenticated user can apply for doctor appointment on a particular date at a particular time. Doctor will receive a notification and will accept or reject the application.User can also apply for the post of doctor.",
   },
@@ -14,7 +14,7 @@ export const project = [
     title: "Blood Bank Application",
     description:
       "A Deployed Blood Bank application which consists of admin, donar, hospital and organization panel where one can register and login. Donar can donate blood and it will be recorded in the analytics. Hospital can take the blood available.",
-    link: "https://kartik-bloodbank.vercel.app/",
+    link: "https://github.com/kartikgoyal89/blood-bank",
     image: "",
     period: "2022-2023",
     tech: "MERN Stack",

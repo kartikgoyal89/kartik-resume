@@ -16,7 +16,7 @@ function Home() {
       <div className="bg-primary px-40 xl:px-20 lg:px-20 md:px-20 position-fixed">
         <Intro />
         <About />
-        {/* <Experience /> */}
+        <Experience />
         <Projects />
         <Courses />
         <Contact />

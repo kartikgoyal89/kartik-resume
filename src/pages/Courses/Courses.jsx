@@ -32,7 +32,7 @@ const Courses = () => {
             target="_blank"
             className="cursor-pointer"
           >
-            <h1 className="text-xl font-bold text-secondary">
+            <h1 className="text-xl font-bold text-secondary underline">
               {certificates[selectItem].certificate}
             </h1>
           </Link>
