@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SectionTitle from "../../components/SectionTitle";
 import { certificates } from "../../resources/Certificates";
 import { Link } from "react-router-dom";
+import { RiLinksLine } from "react-icons/ri";
 
 const Courses = () => {
   const [selectItem, setSelectedItem] = useState(0);
@@ -15,7 +16,7 @@ const Courses = () => {
           {certificates.map((certificates, idx) => (
             <div key={idx} onClick={() => setSelectedItem(idx)}>
               <h1
-                className={`text-xl cursor-pointer py-2 px-5  ${
+                className={`text-2xl cursor-pointer py-2 px-5  ${
                   selectItem === idx
                     ? "font-bold text-tertiary border-tertiary rounded border-l-4 -ml-1 bg-[#135e4d42] py-3"
                     : "font-normal text-white"
@@ -32,7 +33,7 @@ const Courses = () => {
             target="_blank"
             className="cursor-pointer"
           >
-            <h1 className="text-xl font-bold text-secondary underline">
+            <h1 className="flex items-center text-2xl font-bold text-secondary underline">
               {certificates[selectItem].certificate}
             </h1>
           </Link>

@@ -8,12 +8,13 @@ import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import LeftSidebar from "./LeftSider";
 import Courses from "../Courses/Courses";
+import "./home.css";
 
 function Home() {
   return (
     <>
       <Header />
-      <div className="bg-primary px-40 xl:px-20 lg:px-20 md:px-20 position-fixed">
+      <div className="bg-primary home-container position-fixed">
         <Intro />
         <About />
         <Experience />

@@ -1,0 +1,49 @@
+
+.home-container{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.intro-container{
+    width: 100%;
+}
+
+
+@media (max-width: 1340px) {
+    .intro-container .hello{
+        font-size: 35px;
+    }
+    .intro-container .name{
+        font-size: 75px;
+    }
+    .intro-container .service{
+        font-size: 50px;
+    }
+    .intro-container .desc{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 968px) {
+    .intro-container{
+        gap: 15px !important;
+    }
+    .intro-container .hello{
+        font-size: 25px;
+    }
+    .intro-container .name{
+        font-size: 60px;
+    }
+    .intro-container .service{
+        font-size: 45px;
+    }
+    .intro-container .desc{
+        font-size: 17px;
+    }   
+    
+    .home-container{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
