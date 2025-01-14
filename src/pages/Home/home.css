@@ -45,5 +45,19 @@
         padding-left: 80px;
         padding-right: 80px;
     }
+}
 
+@media (max-width: 550px) {
+    .intro-container{
+        width: 100% !important;
+    }
+    .home-container{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}
+
+
+@media (max-width: 500px) {
+    
 }
