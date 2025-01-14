@@ -19,7 +19,7 @@ const Experience = () => {
               onClick={() => setSelectedItem(idx)}
             >
               <h1
-                className={` time-period text-xl cursor-pointer py-2 px-2  ${
+                className={`pointer time-period text-xl cursor-pointer py-2 px-2  ${
                   selectItem === idx
                     ? "font-bold text-tertiary border-tertiary rounded border-l-4 -ml-1 bg-[#135e4d42] py-3"
                     : "font-normal text-white"
@@ -36,7 +36,7 @@ const Experience = () => {
           </h1>
 
           <Link to={experience[selectItem].link} target="_blank">
-            <h1 className="common-info flex items-center text-[900] gap-[8px] text-2xl text-tertiary underline">
+            <h1 className="link common-info flex items-center text-[900] gap-[8px] text-2xl text-tertiary underline">
               {experience[selectItem].company}
             </h1>
           </Link>

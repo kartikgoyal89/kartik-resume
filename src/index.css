@@ -10,6 +10,13 @@
   cursor: url('./assets/cursor.svg') 12 12, auto !important;
 }
 
+a:hover,
+button:hover,
+.pointer,
+.link:hover{
+  cursor: url('./assets/pointer.svg') 12 12, auto !important;
+}
+
 
 ::-webkit-scrollbar{
   width: 8px;

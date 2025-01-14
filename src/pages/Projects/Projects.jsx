@@ -20,7 +20,7 @@ const Projects = () => {
               onClick={() => setSelectedItem(idx)}
             >
               <h1
-                className={`time-period text-2xl cursor-pointer py-2 px-2  ${
+                className={`pointer time-period text-2xl cursor-pointer py-2 px-2  ${
                   selectItem === idx
                     ? "font-bold text-tertiary border-tertiary rounded border-l-4 -ml-1 bg-[#135e4d42] py-3"
                     : "font-normal text-white"
@@ -37,7 +37,7 @@ const Projects = () => {
             className="cursor-pointer"
             target="_blank"
           >
-            <h1 className="common-title flex items-center gap-[8px] text-2xl font-bold text-secondary underline">
+            <h1 className="link common-title flex items-center gap-[8px] text-2xl font-bold text-secondary underline">
               {project[selectItem].title}
             </h1>
           </Link>
