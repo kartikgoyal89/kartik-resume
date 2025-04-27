@@ -8,7 +8,7 @@ const Contact = () => {
     name: "Kartik Goyal",
     email: "kartikgoyal794@gmail.com",
     mobile: "+91-7669835303",
-    age: "21",
+    age: "22",
     gender: "male",
     city: "New Delhi",
     country: "INDIA",
@@ -25,12 +25,12 @@ const Contact = () => {
                 " {key} "
               </span>{" "}
               <span className=" text-tertiary text-xl me-5">:</span>
-              <span className=" font-[500] bold text-tertiary contact-key">
+              <span className=" font-[500] bold text-tertiary contact-key transition-all hover:text-secondary duration-200">
                 "{user[key]}"
               </span>
             </h1>
           ))}
-          <h1 className="text-tertiary text-2xl font-[500] ">{"}"}</h1>
+          <h1 className="text-tertiary text-2xl font-[500]  ">{"}"}</h1>
         </div>
         <div className="hello-img">
           <img

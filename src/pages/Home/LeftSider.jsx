@@ -9,10 +9,7 @@ const LeftSider = () => {
           <Link to="mailto:kartikgoyal794@gmail.com" target="_blank">
             <i className="pointer ri-mail-line text-gray-500 cursor-pointer hover:text-white text-2xl"></i>
           </Link>
-          <Link
-            to="https://www.linkedin.com/in/kartik-goyal-994651227"
-            target="_blank"
-          >
+          <Link to="https://www.linkedin.com/in/kartik-goyal-" target="_blank">
             <i className="pointer ri-linkedin-box-line text-gray-500 cursor-pointer hover:text-white text-2xl"></i>
           </Link>
           <Link to="https://github.com/kartikgoyal89" target="_blank">

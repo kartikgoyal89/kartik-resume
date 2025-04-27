@@ -22,7 +22,9 @@ const About = () => {
     "C",
     "Github",
     "Next.js",
-    "Java",
+    "Redis",
+    "LangChain",
+    "Hugging Face",
   ];
   return (
     <div>
@@ -36,7 +38,7 @@ const About = () => {
             className="object-cover"
           />
         </div>
-        <div className="flex flex-col gap-5 w-full ml-10 lg:ml-0">
+        {/* <div className="flex flex-col gap-5 w-full ml-10 lg:ml-0">
           <p className="text-xl text-white about-p mb-5  md:text-sm text-justify sm:w-full">
             Hello! My name is{" "}
             <span className="text-secondary font-semibold">Kartik Goyal</span>{" "}
@@ -54,6 +56,24 @@ const About = () => {
             applications. Here are a few technologies I've been working with
             recently:
           </p>
+        </div> */}
+        <div className="flex flex-col gap-5 w-full ml-10 lg:ml-0">
+          <p className="text-xl text-white about-p mb-5 md:text-sm text-justify sm:w-full">
+            Hello! I’m{" "}
+            <span className="text-secondary font-semibold">Kartik Goyal</span>,
+            a MERN Stack Developer and Web Designer passionate about building
+            scalable, user-centric web applications. Since 2021, I’ve honed my
+            skills starting from foundational HTML and CSS to developing
+            sophisticated, responsive websites.
+          </p>
+          <p className="text-xl text-white about-p mb-20 md:text-sm text-justify sm:w-full">
+            Currently, I specialize in creating fully functional, visually
+            appealing, and accessible digital experiences. Alongside full-stack
+            development, I actively integrate AI technologies into my projects
+            to build intelligent, dynamic applications. My focus remains on
+            delivering inclusive products that enrich user engagement. Below are
+            some of the key technologies and tools I’ve recently worked with:
+          </p>
         </div>
       </div>
 
@@ -63,7 +83,10 @@ const About = () => {
         </h1>
         <div className="skills flex flex-wrap gap-5 mt-10">
           {skills.map((skill, idx) => (
-            <div key={idx} className="border border-tertiary px-5 py-2">
+            <div
+              key={idx}
+              className="border border-tertiary px-5 py-2 hover:border-secondary transition duration:200"
+            >
               <h1 className="text-white mb-0 font-semibold">{skill}</h1>
             </div>
           ))}

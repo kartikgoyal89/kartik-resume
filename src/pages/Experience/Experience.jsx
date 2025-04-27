@@ -25,7 +25,7 @@ const Experience = () => {
                     : "font-normal text-white"
                 }`}
               >
-                {experience.period}
+                {experience.period}&nbsp;&nbsp;2024
               </h1>
             </div>
           ))}
